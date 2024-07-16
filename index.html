@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Currency Converter</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="wrapper">
+    <div class="app-details">
+      <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.kicoTLH2z4lKOzW3U72JbAHaHw%26pid%3DApi&f=1&ipt=88668f45bb1f1c1032fd07d9c6fb5168ea87fb62c4cd75af0cbe8ea1ab42d93f&ipo=images" class="app-icon" alt="App Icon">
+      <h1 class="app-title">Currency Converter</h1>
+    </div>
+    <label for="amount">Amount:</label>
+    <input type="number" id="amount" value="100">
+    <div class="dropdowns">
+      <select id="from-currency-select"></select>
+      <select id="to-currency-select"></select>
+    </div>
+    <button id="convert-button">Convert</button>
+    <p id="result"></p>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
