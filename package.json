@@ -1,0 +1,23 @@
+{
+  "name": "682pa",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Darshanhs9591/webProject.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Darshanhs9591/webProject/issues"
+  },
+  "homepage": "https://github.com/Darshanhs9591/webProject#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
